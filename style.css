@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'OpenSans', sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+    place-items: center;
+    display: grid;
+    height: 100vh;
+}
+
+.container {
+    padding: 30px 30px;
+    background-color: #000000;
+    border-radius: 28px;
+}
+
+h1 {
+    color: #cdd832;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #cdd832;
+    padding: 10px 0;
+}
+
+.new-task input {
+    border: 3px solid lightgray;
+    border-radius: 4px;
+    padding: 5px;
+    height: 35px;
+}
+
+.new-task button {
+    height: 35px;
+    cursor: pointer;
+    padding: 0 15px;
+    background-color: #ffffff;
+    border: 3px solid lightgray;
+    border-radius: 4px;
+}
+
+.task-box {
+    background-color: lightgray;
+    padding: 10PX 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.input-controller textarea {
+    width: 100%;
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.edit-controller {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-controller i {
+    cursor: pointer;
+}
+
+.update-controller {
+    display: none;
+}
+
+.update-controller button {
+    margin-top: 5px;
+    padding: 2px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-date p{
+    color: #cdd832;
+    margin-top: 10px;
+}
+
+.footer-date p::first-letter {
+    text-transform: capitalize;
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
