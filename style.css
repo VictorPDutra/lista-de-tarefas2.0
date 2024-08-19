@@ -44,6 +44,14 @@ h2 {
     border-radius: 4px;
 }
 
+#input-error {
+    padding-top: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ff0000;
+    display: none;
+}
+
 .task-box {
     background-color: lightgray;
     padding: 10PX 20px;
